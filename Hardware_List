@@ -1,0 +1,6 @@
+# This document merely lists the hardware needed to build the image recognition system.
+
+1- Raspberry Pi Zero W
+2- Raspberry Pi Cam
+3- Gimbal locked in the Yaw-Axis, free in the Roll & Pitch
+4- 3D Gyroscope - Compatible with the Raspberry Pi.
