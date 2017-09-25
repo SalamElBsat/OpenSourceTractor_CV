@@ -1,0 +1,10 @@
+This log records the attemps made in the progress of the project
+
+1- Using the cv2.inRange function to determine the white color in any of the two modes, RGB & HSV.
+    
+    - This method proved to lack robustness, for the resulting image have some noise from the ground which includes white particles.
+    - Clearly, with white markers, we are going to have issues if the sky is a part of the image, clear skies can easily affect the filtering out of the white color
+    - A robust combination of denoising and smoothening filters is being investigated to detect the poles irrespective of the sky
+    - TODO: an attempt to digitally color the markers with a florecent color for easier detection and to filter out the sky effect
+    
+2- If the above mentioned attempt didn't work out, another algorithm is proposed that detects rectangles of a certain color and with a certain tilt in the picture to depict the correct orientation.
